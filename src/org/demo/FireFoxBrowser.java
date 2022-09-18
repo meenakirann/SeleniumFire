@@ -14,6 +14,7 @@ public class FireFoxBrowser {
 		Thread.sleep(2000);
 		/*String title = driver.getTitle();
 	    System.out.println(title);
+		System.out.println("******");
 		String currentUrl = driver.getCurrentUrl();
 		System.out.println(currentUrl);
 		driver.close();*/
