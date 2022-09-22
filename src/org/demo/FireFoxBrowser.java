@@ -12,6 +12,7 @@ public class FireFoxBrowser {
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.flipkart.com/");
 		Thread.sleep(2000);
+		System.out.println("******");
 		/*String title = driver.getTitle();
 	    System.out.println(title);
 		System.out.println("******");
