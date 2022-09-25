@@ -20,7 +20,7 @@ public class FireFoxBrowser {
 		System.out.println(currentUrl);
 		driver.close();*/
 		driver.navigate().back();
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		driver.navigate().forward();
 		Thread.sleep(2000);
 		driver.navigate().refresh();
