@@ -11,7 +11,7 @@ public class FireFoxBrowser {
 		//driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.flipkart.com/");
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		System.out.println("meenakiran");
 		/*String title = driver.getTitle();
 	    System.out.println(title);
